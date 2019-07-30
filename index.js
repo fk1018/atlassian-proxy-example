@@ -1,6 +1,6 @@
 const getData = require('./getData').getData;
 const {baseUrl,port} = require('./config');
-const express = require('express')
+const express = require('express');
 const app = express();
 
 app.get('/', (req, res) =>{
